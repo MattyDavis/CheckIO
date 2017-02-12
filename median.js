@@ -2,7 +2,7 @@
 
 function median(data) {
     let index = Math.trunc(data.length / 2);
-    data.sort((a, b) => a - b );
+    data.sort((a, b) => a - b);
     return data.length % 2 ? data[index] : (data[index - 1] + data[index]) / 2;
 }
 

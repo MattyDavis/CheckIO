@@ -2,7 +2,7 @@
 
 function mostWanted(data) {
     let array = [];
-    data.toLowerCase().match(/[a-z]/g).sort().map(i => array[i] = !array[i] ? 1 : array[i] + 1 );
+    data.toLowerCase().match(/[a-z]/g).sort().map(i => array[i] = !array[i] ? 1 : array[i] + 1);
 
     let result = Object.keys(array)[0];
     for (let key in array)
