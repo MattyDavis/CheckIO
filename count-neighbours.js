@@ -2,7 +2,6 @@
 
 function countNeighbours(data, row, col) {
     let count = 0, index = [-1, 0, 1];
-
     for (let i of index)
         for (let j of index) {
             let x = row + i, y = col + j;
